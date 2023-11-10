@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 400px;
+        }
+        meter{
+            width: 400px;
+            
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Password Strength</legend>
+        <dl>
+            <dt>Strong password</dt>
+            <meter min="1" max="100" value="100" low="0" high="0"></meter>
+            <dt>Weak password</dt>
+            <meter min="1" max="100" value="100" low="20" high="80"></meter>
+            <dt>Poor password</dt>
+            <meter min="1" max="100" value="100" low="60" high="80"></meter>
+        </dl>
+    </fieldset>
+</body>
+</html>

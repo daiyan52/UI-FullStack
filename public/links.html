@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Links</title>
+    <style>
+        ol{
+            display: flex;
+            list-style: none;
+        }
+        li{
+            margin: 10px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:visited{
+            color: rgb(17, 169, 220);
+        }
+        a:link{
+            color: blue;
+        }
+        a:active{
+            color: #e22b2b;
+        }
+        .topic{
+            text-align: center;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+        .topic:hover{
+            background-color: red;
+        }
+        .topic:target{
+            background-color:aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li><a href="#HTML">HTML</a></li>
+        <li><a href="#javaScript">javaScript</a></li>
+        <li><a href="#React">Reactjs</a></li>
+    </ol>
+    <div>
+        <div class="topic" id="HTML">
+            <h3>HTML</h3>
+            <p>HTML is a Hyper text markup language</p>
+        </div>
+        <div class="topic" id="javaScript">
+            <h3>JavaScript</h3>
+            <p>JavaScript is a client side server language</p>
+        </div>
+        <div  class="topic" id="React">
+            <h3>React</h3>
+            <p>React is used for SPA</p>
+        </div>
+    </div>
+</body>
+</html>

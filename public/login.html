@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+    <style>
+        dl{
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+        }
+        dt{
+            font-weight: bold;
+            font-family:cursive;
+            margin-bottom: 10px;
+        }
+        dd{
+            margin-bottom: 10px;
+        }
+        legend{
+            text-align: center;
+            width: 200px;
+            border-radius: 20px;
+            background-color: #ec0b0b;
+            color: azure;
+            border: 1px solid;
+            box-shadow: 3px 2px 1px blue;
+        }
+        fieldset{
+            width: 500px;
+            background-color: aqua;
+        }
+        input{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>User Details</legend>
+        <dl>
+            <dt>Name</dt>
+            <dd><input type="text" placeholder="Enter Name" required></dd>
+            <dt>Email</dt>
+            <dd><input type="text" placeholder="Enter valid Email Address" required></dd>
+            <dt>Password</dt>
+            <dd><input type="password" placeholder="Enter Password" required></dd>
+            <dd><input type="text" id=""></dd>
+        </dl>
+    </fieldset>
+</body>
+</html>

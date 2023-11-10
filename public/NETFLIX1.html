@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Netflix</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body{
+            background-image: url('assets/netflix.jpeg');
+            background-color: 100%;
+            background-repeat: no-repeat;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 800px;
+            width: 100%;
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+        }
+        input{
+            height: 60px;
+            
+        }
+        /* button{
+            width: 35%;
+    
+        } */
+        /* select{
+            margin-right: 40px;
+        } */
+        header{
+            display: flex;
+            justify-content: space-between;
+        }
+        h2{
+            color: #DC3545;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h2>NETFLIX</h2>
+        </div>
+        <div class="input-group-text">
+            <select class="form-select">
+                <option>Language</option>
+                <option>English</option>
+                <option>हिंदी</option>
+            </select>
+            <button class="btn btn-danger">Signin</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <h1>Unlimited movies, TV shows and more....</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="input-group">
+                <input type="text" name="userName" placeholder="Email Address" class="form-control">
+                <button class="btn btn-danger">Get Started<span class="bi bi-chevron-right"></span></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

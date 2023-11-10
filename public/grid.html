@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="shortcut icon" href="assets/daiyan.jpeg">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        footer{
+            height: 300px;
+            background-color: black;
+            color: white;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 2.5fr 3fr 2fr 2.5fr 2fr;
+        }
+        #content{
+            font-size: 10px;
+        }
+        .container-fluid{
+            background-color:darkred;
+        }
+    </style>
+</head>
+<body class="container-fluid">
+    <footer>
+        <div>
+            <div id="title">Abebooks</div>
+            <div id="content">
+                Books arts & collections
+            </div>
+        </div>
+        <div>
+            <div>Amazon Web Services</div>
+            <div id="content">
+                Scalable cloud computing services
+            </div>
+        </div>
+        <div>
+            <div>Auidble</div>
+            <div id="content">
+                Download Audio books
+            </div>
+        </div>
+        <div>
+            <div>DPReview</div>
+            <div id="content">
+                Digitial Photography
+            </div>
+        </div>
+        <div>
+            <div>IMDb</div>
+            <div id="content">
+                Movies, TV & Celebrities
+            </div>
+        </div>
+        <span title="Hello Daiyan">Daiyan</span>
+        <!-- <img src="assets/daiyan.jpeg" title="Daiayn" alt=""> -->
+    </footer>
+</body>
+</html>

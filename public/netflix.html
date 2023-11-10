@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        body{
+            background-image: url(assets/netflix.jpeg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            color: white;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            width: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .main-content{
+            text-align: center;
+            width: 600px;
+        }
+        span{
+            display: flex;
+            flex-direction: row;
+        }
+        button{
+            width: 50%;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <h1>Unlimited movies, TV shows and more</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <span>
+                <input class="form-control" placeholder="Email address" required>
+                <button class="btn btn-danger">Get Started</button>
+            </span>
+        </div>
+    </div>
+</body>
+</html>

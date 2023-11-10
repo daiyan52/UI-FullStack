@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Shoping</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            background-color: #d9534f;
+            color:white;
+            text-align: center;
+            padding: 5px;
+        }
+        footer{
+            background-color:#d9534f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        section{
+            width: 100%;
+            height: 400px;
+        }
+        iframe{
+            width: 100%;
+            height: 385px;
+        }
+        section{
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+        }
+        ul{
+            list-style: none;
+            margin-left: -30px;
+        }
+        li{
+            font-size: 20px;
+            margin-top: 10px;
+            background-color: #d9534f;
+            color: white;
+            width: 200px;
+            padding: 5px;
+            text-align: center;
+            border-radius: 20px;
+
+        }
+        li:hover{
+            background-color: black;
+            box-shadow: 3px 3px 0px blue;
+        }
+        iframe{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header><h1><span class="bi bi-cart-fill"></span>Amazon Shoing</h1></header>
+        <section>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Electronics</li>
+                    <li>Fashion</li>
+                    <li>Footwear</li>
+                </ul>
+            </nav>
+            <main>
+                <iframe></iframe>
+            </main>
+        </section>
+    </div>
+    <footer>&copy; copyright 2023</footer>
+</body>
+</html>
